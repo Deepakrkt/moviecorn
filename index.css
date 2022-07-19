@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Sora:wght@200&display=swap');
+
+*{
+    top:0;
+    left:0;
+    margin:0px;
+    box-sizing:border-box;
+    font-family: 'Sora', sans-serif;
+  }
+  body{
+    overflow: scroll;
+  }
+  button{
+  border-width: 0px;
+  border-radius:8px;
+  background-color: #eb4174;
+  color: #fff;
+ }
+  .nav{
+    position: fixed;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    height:64px;
+    align-items: center;
+    box-shadow: 0px 0px 6px 0px rgba(0,0,0,0.3);
+    background-color: #fff;
+    z-index: 10;
+    
+  }
+  .nav .li{
+    display: flex;
+    margin-left:20px;
+
+  }
+  .nav .li a{
+    display: block;
+    margin-right:10px;
+    border-radius: 20px;
+    background-color: #eb4174;
+  }
+  .nav .name{
+    font-family: 'Dancing Script', cursive;
+    margin-right:50px;
+    font-size: 26px;
+  }
+ 
+  .logback{
+    position: absolute;
+    padding-top: 60px;
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(to right,#eb4174,#ffe3e3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .logback .box{
+    padding:20px 30px 30px 30px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    background-color:#fff;
+    box-shadow: 3px 3px 7px 2px rgba(0,0,0,0.3);
+    border-radius: 9px;
+  }
+  .logback .box .logname{
+    font-size: 70px;
+  }
+  .logback .box .logname i{
+    color:#eb4174;
+  }
+  .logback .box .linput{
+    margin-top:20px;
+  }
+  .logback .box form .rad{
+    color: #eb4174;
+    margin-bottom: 20px;
+    margin-top: 13px;
+  }
+  .logback .box form button{
+    border:0px;
+    background-color: #eb4174;
+    color:#fff;
+    padding:10px 20px 10px 20px;
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 10px;
+    border-radius: 7px;
+    cursor: pointer;
+  }
+  .logback .box .linput{
+    position: relative;
+    padding:10px;
+  }
+  .logback .box .linput input{
+    padding: 6px 6px 6px 35px;
+    outline: none;
+    border-width:0px 0px 2px 0px;
+    border-color: #eb4174;
+    border-style: solid;
+    font-weight: 600;
+    width:260px;
+    font-size: 15px;
+  }
+  .logback .box form{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  .logback .box form .linput i{
+    position: absolute;
+    top:17px;
+    left:15px;
+    font-weight: 600;
+    font-size: 20px;
+    cursor: pointer;
+    color: #eb4174;
+  }
+  .nav .search-element .form-control{
+    border-width:0px 0px 1px 0px;
+    margin:10px;
+    outline: none;
+    width:250px;
+    font-size:16px;
+  }
+  .card-group .card img{
+    width:200px;
+    height: 350px;
+  }
+  
+ 
+  .nav .search-container{
+    background-color: var(--md-dark-color);
+    height:10px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: row;
+  
+  }
+  .search-element{
+    display: flex;
+   align-items: stretch;
+   justify-content: center;
+   flex-direction: column;
+    position:relative;
+  }
+  
+  .search-element .form-control{
+    padding:0.5rem 0.5rem;
+    font-size: 16px;
+    border:1px solid black;
+    border-radius: 5px;
+    /* outline: none; */
+    color:black;
+    width:350px;
+    background-color: #f8f8fa;
+  }
+  
+  .nav .search-list-item{
+    background-color: var(--light-dark-color);
+    padding:0rem;
+    border-bottom:1px solid var(--dark-color);
+    width:calc(350px-8px);
+    color:#fff;
+    cursor: pointer;
+    transition:background-color 200ms ease;
+  }
+  
+  .search-list-item{
+    display: flex;
+    align-items: center;
+  }
+ 
+ 
+  .search-items-info p{
+    font-size:0.8rem;
+    margin-top:0.5rem;
+    font-weight:600;
+    opacity:0.6;
+
+  }
+ 
+  .wrapper{
+    margin-top: 80px;
+  }
+
+  
+  .result-container{
+    padding:3rem 0;
+  }
